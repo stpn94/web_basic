@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>파일 업로드</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<h1>파일 업로드 서블릿 폼</h1>
+	<form action="fileUploadServlet" method="post" enctype="multipart/form-data">
+		<fieldset>
+			<legend>파일 업로드 서블릿</legend>
+			<ul>
+				<li>
+   				<label for="name">올린 사람</label>
+					<input type="text" id="name" name="name">
+				</li>
+				<li>
+					<label for="subject">제목 </label>
+					<input type="text" id="subject" name="subject">
+				</li>
+				<li>
+					<label for="fileName1">파일명1 :  </label>
+					<input type="file" id="fileName1" name="fileName1">				
+				</li>
+				<li>
+					<label for="fileName2">파일명2 :  </label>
+					<input type="file" id="fileName2" name="fileName2">				
+				</li>
+				<li>
+					<input type="submit" value="전송">
+				</li>
+			</ul>
+		</fieldset>
+		
+		
+	</form>
+</body>
+</html>
