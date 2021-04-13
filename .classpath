@@ -15,5 +15,7 @@
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
 	<classpathentry kind="lib" path="C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/servlet-api.jar"/>
 	<classpathentry kind="lib" path="D:/lib/cos-05Nov2002.jar"/>
+	<classpathentry kind="lib" path="C:/workspace_web/web_erp/WebContent/WEB-INF/lib/javax.mail-1.6.2.jar"/>
+	<classpathentry kind="lib" path="C:/workspace_web/web_erp/WebContent/WEB-INF/lib/jai_core.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
